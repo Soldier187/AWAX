@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+body{
+ font-family: Montserrat
+}
+
 header {
     height: 100px;
     background-color: #000;   
@@ -43,11 +47,16 @@ header {
 .menu li a{
 color: #ffff;
 text-transform: uppercase;
-font-weight: bold;
+font-weight: 600;
 text-decoration: none;
-padding-left: 5px;
-padding-right: 5px;
+padding-left: 10px;
+padding-right: 10px;
+height: 100px;
+display: flex;
+align-items: center;
+border-bottom: 5px solid #0000;
 }
-.manu li a:hover {
-    border-bottom: 3px solid #b28756;
-}
+.menu li a:hover,
+.menu .active a{
+    border-bottom: 5px solid #b28756;
+} 
