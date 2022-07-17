@@ -121,11 +121,12 @@ font-size: 50px;
 .banner .sliders-pointers{
 width: 100vw;
 height: 20px;
-position: absolute;
-margin-top: -80px;
+position: relative;
+margin-top: -85px;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .banner .pointer{
