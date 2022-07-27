@@ -388,14 +388,31 @@ color: #555;
 margin-top: 5px;
 }
 
-.section-team--social
+.section-team--social{
+display: flex;
+margin-top: 20px;
+}
 
 .section-team--social a{
-display: inline-block;
+display: inline-flex;
 justify-content:center;
 align-items:center;
 width: 25px;
 height: 25px;
 background-color: #ccc;
 border-radius: 13px;
+margin-right: 9px;
+}
+
+.section-team--social a:hover{
+    background-color: #b28756;
+}
+
+.section-map {
+    background-image:url('../imags/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.secction-map--area{
+
 }
